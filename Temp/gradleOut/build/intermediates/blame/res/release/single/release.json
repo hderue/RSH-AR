@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout___arcore_education.xml.flat",
+        "source": "C:\\Users\\hobrue\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.4.0.aar\\0df9911a4f78ec511dfe69040e558b44\\res\\layout\\__arcore_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\hobrue\\Documents\\GitHub\\Rietveld\\Rietveld\\Rietveld - Git\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    }
+]
