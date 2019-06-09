@@ -3,12 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ButtonClickAnimation
     - ButtonSceneTransition
-    - InformationInitiate
+    - InfobuttonClick
     - MapMover
     - SceneLoader
     - SceneTransition
     - SceneTransitions
-    - SendToGoogle
     - roommanager
     Unity.TextMeshPro.dll:
     - TMPro.TMP_Dropdown
@@ -20,8 +19,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
@@ -98,34 +99,36 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9754}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9840}
     - Class: 114
-      Script: {instanceID: 10216}
+      Script: {instanceID: 10136}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10220}
     - Class: 114
-      Script: {instanceID: 10338}
+      Script: {instanceID: 10304}
     - Class: 114
-      Script: {instanceID: 10468}
+      Script: {instanceID: 10342}
     - Class: 114
-      Script: {instanceID: 10490}
+      Script: {instanceID: 10472}
     - Class: 114
-      Script: {instanceID: 10498}
+      Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10796}
+      Script: {instanceID: 10502}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -185,11 +188,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9758}
     - Class: 114
-      Script: {instanceID: 11010}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 32964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -258,25 +261,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9758}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 10136}
     - Class: 114
-      Script: {instanceID: 10386}
+      Script: {instanceID: 10390}
     - Class: 114
-      Script: {instanceID: 10500}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11318}
+      Script: {instanceID: 11320}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11730}
     - Class: 114
-      Script: {instanceID: 11948}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12056}
+      Script: {instanceID: 12058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -596,16 +599,10 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
+      Hash: 9f665aa37fdcbccd173fc3bbb24d96d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InfobuttonClick
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -840,6 +837,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonClickAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 162b8984b648a3076490e22d9b432e44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendToGoogle
   - hash:
       serializedVersion: 2
       Hash: 780e8f682b3221346c034a6712a0fd25
@@ -1386,12 +1389,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AutoExposure
-  - hash:
-      serializedVersion: 2
-      Hash: 1a539f869df074ab252efebac436e6c0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SendToGoogle
   - hash:
       serializedVersion: 2
       Hash: c271ae1aef0ead653a87d67eaf622e52

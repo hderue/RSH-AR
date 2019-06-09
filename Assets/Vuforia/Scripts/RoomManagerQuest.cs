@@ -23,7 +23,7 @@ public class RoomManagerQuest : MonoBehaviour
     {
         
 
-      if(roomCompleted[0] == true && roomCompleted[1] == true && roomCompleted[2] == true && roomCompleted[3] == true  && !Complete)
+      if(roomCompleted[0] == true && roomCompleted[1] == true && roomCompleted[2] == true && !Complete)
         {
             Complete = true;
             Debug.Log("Done");
