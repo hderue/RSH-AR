@@ -15,4 +15,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Feedback");
     }
+
+    public void endScene()
+    {
+        SceneManager.LoadScene("Einde");
+    }
 }

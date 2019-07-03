@@ -6,25 +6,27 @@ using TMPro;
 
 public class SendToGoogle : MonoBehaviour
 {
-    public GameObject username;
+
 
     public GameObject drop;
     public GameObject dropModel;
-
-    private string Name;
+    public GameObject dropAR;
+ 
 
     private int Dropper;
     private int DropperModel;
+    private int DropperAR;
 
     [SerializeField]
     private string BASE_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfyVtiVtOOgpz8qxQqm0r--ulrj8u2B_tXldNNAQhvGmb3O0g/formResponse";
 
-    IEnumerator Post(string name, int drop, int dropModel)
+    IEnumerator Post(int drop, int dropModel, int dropAR)
     {
         WWWForm form = new WWWForm();
-        form.AddField("entry.1755259562", name);
+        
         form.AddField("entry.756974309", dropModel);
         form.AddField("entry.558954491", drop);
+        form.AddField("entry.1663115365", dropAR);
         byte[] rawData = form.data;
         WWW www = new WWW(BASE_URL, rawData);
         yield return www;
@@ -33,12 +35,15 @@ public class SendToGoogle : MonoBehaviour
 
     public void Send()
     {
-        Name = username.GetComponent<TMP_InputField>().text;
+   
 
-        Dropper = drop.GetComponent<Dropdown>().value;
-        DropperModel = drop.GetComponent<Dropdown>().value;
+        Dropper = drop.GetComponent<TMP_Dropdown>().value;
+        DropperModel = dropModel.GetComponent<TMP_Dropdown>().value;
+        DropperAR = dropAR.GetComponent<TMP_Dropdown>().value;
 
-        StartCoroutine(Post(Name, Dropper, DropperModel));
+
+
+        StartCoroutine(Post(Dropper, DropperModel, DropperAR));
 
     }
 
